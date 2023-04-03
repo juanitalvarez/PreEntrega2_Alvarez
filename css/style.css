@@ -1,0 +1,202 @@
+/*general*/
+
+
+:root{
+    --colorGreen: #00383B;
+    --colorGreenLight: #02666b;
+    --colorPink: #F5C0C4;
+    --colorStone: #F2E9EA;
+    --alpha: 100px;
+    --beta: 70px;
+    --gama: 50px;
+    --delta: 25px;
+    --epsilon: 18px;
+    --base:16px;
+    --smallprint: 14px;
+    --milli: 12px;
+    --mini: 11px;
+    --mainFont: "basic-sans", sans-serif;
+    --secondaryFont: "basic-sans", sans-serif;
+}
+
+li {list-style-type: none;}
+
+a{text-decoration: none; color: var(--colorStone); transition: 1s all;}
+
+a:hover{color: var(--colorPink);
+
+}
+
+.bgGreen {background-color: var(--colorGreen)}
+
+.colorPink{color:var(--colorPink)}
+
+.colorGreen{color:var(--colorGreen)}
+
+.bgPink{background-color:var(--colorPink)}
+
+.bgStone{background-color:var(--colorStone)}
+
+p, a, h1, h2, h3, h4, h5, h6, input, textarea 
+    {font-family: "basic-sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;}
+
+body { margin:0px; }
+
+*{margin-bottom: 0;}
+
+.paddingL{
+    padding-left: 25px;
+}
+
+.paddingR{
+    padding-right: 25px;
+}
+
+/*nav*/
+
+.navbar-nav a{
+    color: var(--colorStone);
+}
+
+.navbar-link a:active{
+    color: var(--colorPink);
+}
+
+.navbar-nav a:hover{
+    color: var(--colorPink);
+}
+
+.navbar-brand {
+    color: var(--colorStone);
+    font-size: var(--delta);
+}
+
+.navbar-brand a:hover{
+    color: var(--colorPink);
+}
+
+.borderBottom {
+    border-bottom: solid 0.5px;
+    border-color: var(--colorStone);
+}
+.navBar{height: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    font-size: var(--base);
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.navBorder{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-left: solid 0.5px;
+    border-color: var(--colorStone);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.card, .card-header, .card-body, .card-footer{
+    border-radius:0px !important;
+}
+
+
+
+/*home*/
+
+    .hero{
+        height: 100vh;
+    }
+    .introText{
+        font-size: var(--alpha);
+        color: var(--colorStone);
+        font-weight:300;
+        line-height: 110%;
+        margin-top: 50px;
+    }
+   
+    .exploreHome{
+        padding-top: 100px; 
+    }
+
+    .exploreHome a{
+        font-size: var(--delta);
+    }
+
+    .titleCard{
+        font-size: var(--gama);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tagCard {
+        font-weight: 400;
+        font-size: var(--epsilon);
+        margin-bottom: 20px;
+    }
+    
+    .yearCard {
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: var(--epsilon);
+    }
+
+    .card {
+        border: solid 0.5px;
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed !important;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    }
+
+    .ctaIndex{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+    }
+
+    .ctaIndex a{
+        color: var(--colorGreen);
+        font-size: var(--gama);
+    }
+
+    .footerText h2{
+        font-size: var(--alpha);
+        color: var(--colorStone);
+    }
+    .footerText{
+        padding: ;
+    }
+
+    .homeContact h3{
+        font-size: var(--epsilon);
+        color: var(--colorStone);
+    }
+
+    .social a{
+        margin-right: 10px;
+    }
+
+    .boxFooter {
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .homeContact a {
+        color: var(--colorPink);
+    }
+
+
+
+
+

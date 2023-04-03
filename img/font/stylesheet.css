@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Bold.woff2') format('woff2'),
+        url('RebondGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-ExtraboldItalic.woff2') format('woff2'),
+        url('RebondGrotesque-ExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-BoldItalic.woff2') format('woff2'),
+        url('RebondGrotesque-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Extrabold.woff2') format('woff2'),
+        url('RebondGrotesque-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-ExtralightItalic.woff2') format('woff2'),
+        url('RebondGrotesque-ExtralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque Hairline';
+    src: url('RebondGrotesque-Hairline.woff2') format('woff2'),
+        url('RebondGrotesque-Hairline.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Extralight.woff2') format('woff2'),
+        url('RebondGrotesque-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque Hairline';
+    src: url('RebondGrotesque-HairlineItalic.woff2') format('woff2'),
+        url('RebondGrotesque-HairlineItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Light.woff2') format('woff2'),
+        url('RebondGrotesque-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-MediumItalic.woff2') format('woff2'),
+        url('RebondGrotesque-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Regular.woff2') format('woff2'),
+        url('RebondGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Medium.woff2') format('woff2'),
+        url('RebondGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-LightItalic.woff2') format('woff2'),
+        url('RebondGrotesque-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Italic.woff2') format('woff2'),
+        url('RebondGrotesque-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Regular.woff2') format('woff2'),
+        url('RebondGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-ThinItalic.woff2') format('woff2'),
+        url('RebondGrotesque-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-SemiboldItalic.woff2') format('woff2'),
+        url('RebondGrotesque-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Thin.woff2') format('woff2'),
+        url('RebondGrotesque-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('RebondGrotesque-Semibold.woff2') format('woff2'),
+        url('RebondGrotesque-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
