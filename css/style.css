@@ -1,20 +1,21 @@
 /*general*/
 
+html { font-size: 62.5%; }
 
 :root{
     --colorGreen: #00383B;
     --colorGreenLight: #02666b;
     --colorPink: #F5C0C4;
     --colorStone: #F2E9EA;
-    --alpha: 100px;
-    --beta: 70px;
-    --gama: 50px;
-    --delta: 25px;
-    --epsilon: 18px;
-    --base:16px;
-    --smallprint: 14px;
-    --milli: 12px;
-    --mini: 11px;
+    --alpha: 10rem;
+    --beta: 7rem;
+    --gama: 5rem;
+    --delta: 2.5rem;
+    --epsilon: 1.8rem;
+    --base:1.6rem;
+    --smallprint: 1.4rem;
+    --milli: 1.2rem;
+    --mini: 1.1rem;
     --mainFont: "basic-sans", sans-serif;
     --secondaryFont: "basic-sans", sans-serif;
 }
@@ -37,6 +38,8 @@ a:hover{color: var(--colorPink);
 
 .bgStone{background-color:var(--colorStone)}
 
+
+
 p, a, h1, h2, h3, h4, h5, h6, input, textarea 
     {font-family: "basic-sans", sans-serif;
         font-weight: 300;
@@ -54,106 +57,62 @@ body { margin:0px; }
     padding-right: 25px;
 }
 
-/*nav*/
-
-.navbar-nav a{
-    color: var(--colorStone);
-}
-
-.navbar-link a:active{
-    color: var(--colorPink);
-}
-
-.navbar-nav a:hover{
-    color: var(--colorPink);
-}
-
-.navbar-brand {
-    color: var(--colorStone);
-    font-size: var(--delta);
-}
-
-.navbar-brand a:hover{
-    color: var(--colorPink);
-}
-
-.borderBottom {
-    border-bottom: solid 0.5px;
-    border-color: var(--colorStone);
-}
-.navBar{height: 80px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column-reverse;
-    font-size: var(--base);
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-
-.navBorder{
-    height: 80px;
-    display: flex;
-    align-items: center;
-    border-left: solid 0.5px;
-    border-color: var(--colorStone);
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 
 .card, .card-header, .card-body, .card-footer{
     border-radius:0px !important;
 }
 
 
+@media (min-width:769px) {
 
-/*home*/
+    /*nav*/
+    .nav {        
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        height: 100px;
+        border-bottom: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        font-size: var(--base);
+        background-color: var(--colorGreen);
 
-    .hero{
-        height: 100vh;
     }
-    .introText{
+    
+    .logo {
+        color: var(--colorStone);
+        font-size: var(--delta);
+        padding-left: 3rem;
+    }
+
+    .menu ul{
+        display: flex;
+        justify-content: flex-end;
+        }
+
+    .menu li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        border-left: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        height: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+        letter-spacing: 1px;
+
+    }
+
+    /*home*/
+       .introText{
         font-size: var(--alpha);
         color: var(--colorStone);
         font-weight:300;
         line-height: 110%;
         margin-top: 50px;
-    }
-   
-    .exploreHome{
-        padding-top: 100px; 
-    }
-
-    .exploreHome a{
-        font-size: var(--delta);
-    }
-
-    .titleCard{
-        font-size: var(--gama);
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .tagCard {
-        font-weight: 400;
-        font-size: var(--epsilon);
-        margin-bottom: 20px;
-    }
-    
-    .yearCard {
-        margin-bottom: 20px;
-        font-weight: 400;
-        font-size: var(--epsilon);
-    }
-
-    .card {
-        border: solid 0.5px;
-        height: 70vh;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed !important;
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     }
 
     .ctaIndex{
@@ -168,13 +127,229 @@ body { margin:0px; }
         font-size: var(--gama);
     }
 
+    /*footer*/
+
     .footerText h2{
         font-size: var(--alpha);
         color: var(--colorStone);
     }
-    .footerText{
-        padding: ;
+
+    /*work*/
+
+    .titleWork{
+        font-size: var(--beta);
+        color: var(--colorStone);
+        font-weight:300;
+        line-height: 110%;
+        margin-top: 50px;
     }
+    .filterWork{
+        display:flex;
+        font-size: var(--base);
+    }
+
+    .filterWork ul{
+        display: flex;
+        border-bottom: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        width: 100%;
+        padding-left: 0;
+        justify-content: space-between;
+
+    }
+    .filterWork li {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 100px;
+        padding-right: 10rem;
+        display: flex;
+
+    }
+
+    .workContent{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-color: var(--colorStone);
+        padding: 50px;
+        display: flex;
+    }
+
+    .cardContentWork {
+        flex-direction: column;
+        flex-wrap:wrap;
+        color: var(--colorGreen);
+        width: 45%;
+        display: flex;
+
+    }
+
+    .imgWork {
+        width: 100%; height: auto;
+    }
+  
+
+    .titleCardWork a{
+        color: var(--colorGreen);
+        font-size: var(--base);
+        display: flex;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+    }
+
+    .titleCardWork a:hover{
+        color: var(--colorGreenLight);
+
+        
+    }
+
+
+    .card-text-display-work {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3rem;
+        border-bottom: solid 0.5px;
+        border-color: var(--colorGreen);
+        margin-top: 1rem;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    /*nav*/
+
+    .nav {        
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        border-bottom: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        font-size: var(--base);
+
+    }
+
+    .logo {
+        color: var(--colorStone);
+        font-size: var(--epsilon);
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    .menu {
+        border-top: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        width: 100%;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+        padding-left:0px ;
+        margin-bottom: 0px;
+        }
+
+    .menu li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 25px;
+        letter-spacing: 1px;
+        
+
+    }
+
+    .menu li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: var(--colorStone);
+    }
+
+    /*home*/
+    .introText{
+        font-size: var(--gama);
+        color: var(--colorStone);
+        font-weight:300;
+        line-height: 110%;
+        margin-top: 3rem;
+    }
+
+    .ctaIndex{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+    }
+
+    .ctaIndex a{
+        color: var(--colorGreen);
+        font-size: var(--delta);
+    }
+
+    /*footer*/
+
+    .footerText h2{
+        font-size: var(--gama);
+        color: var(--colorStone);
+    }
+}
+
+
+
+
+/*home*/
+
+    .hero{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+ 
+    .exploreHome a{
+        font-size: var(--delta);
+    }
+
+    .titleCard{
+        font-size: var(--base);
+        display: flex;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .card {
+
+        border: solid 0.5px;
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed !important;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    }
+
+    .card-text-display {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+        height: 8rem;
+        border-bottom: solid 0.5px;
+        border-color: var(--colorStone);
+    }
+
+
+
 
     .homeContact h3{
         font-size: var(--epsilon);
@@ -190,6 +365,7 @@ body { margin:0px; }
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        padding: 2rem;
     }
 
     .homeContact a {
