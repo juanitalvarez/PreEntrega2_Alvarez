@@ -65,7 +65,7 @@ body { margin:0px; }
 
 @media (min-width:769px) {
 
-    /*nav*/
+    /*nav light*/
     .nav {        
         display:flex;
         flex-direction: row;
@@ -106,6 +106,54 @@ body { margin:0px; }
 
     }
 
+    /*nav dark*/
+    .navGreen {        
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        height: 100px;
+        border-bottom: solid;
+        border-color: var(--colorGreen);
+        border-width: 0.5px; 
+        font-size: var(--base);
+    
+    }
+        
+    .logoGreen {
+        color: var(--colorGreen);
+        font-size: var(--delta);
+        padding-left: 3rem;
+    }
+
+    .logoGreen a {
+        color: var(--colorGreen);
+    }
+    
+    .menuGreen ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .menuGreen li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        border-left: solid;
+        border-color: var(--colorGreen);
+        border-width: 0.5px; 
+        height: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+        letter-spacing: 1px;
+    
+    }
+    .menuGreen a{
+        color: var(--colorGreen);
+    }
+    
+
     /*home*/
        .introText{
         font-size: var(--alpha);
@@ -127,12 +175,28 @@ body { margin:0px; }
         font-size: var(--gama);
     }
 
+    .card-text-display {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+        height: 8rem;
+        border-bottom: solid 0.5px;
+        border-color: var(--colorStone);
+
+    }
+
+    .paddingTop {
+        padding-top: 0px;
+    }
+
     /*footer*/
 
     .footerText h2{
         font-size: var(--alpha);
         color: var(--colorStone);
     }
+
+    
 
     /*work*/
 
@@ -143,6 +207,7 @@ body { margin:0px; }
         line-height: 110%;
         margin-top: 50px;
     }
+
     .filterWork{
         display:flex;
         font-size: var(--base);
@@ -191,6 +256,7 @@ body { margin:0px; }
     }
   
 
+
     .titleCardWork a{
         color: var(--colorGreen);
         font-size: var(--base);
@@ -218,11 +284,20 @@ body { margin:0px; }
         margin-top: 1rem;
     }
 
+    /*about*/
+    .txtAbout {
+        font-size: var(--delta);
+        line-height: 4rem;
+        color: var(--colorGreen);
+        padding: 3rem;
+    }
+
 }
+
 
 @media (max-width:768px) {
 
-    /*nav*/
+    /*navLight*/
 
     .nav {        
         display:flex;
@@ -240,7 +315,7 @@ body { margin:0px; }
     .logo {
         color: var(--colorStone);
         font-size: var(--epsilon);
-        padding-top: 1rem;
+        padding: 1rem;
         text-align: center;
     }
 
@@ -275,6 +350,68 @@ body { margin:0px; }
     .menu li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: var(--colorStone);
     }
 
+    /*navGreen*/
+
+    .navGreen {        
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        border-bottom: solid;
+        border-color: var(--colorGreen);
+        border-width: 0.5px; 
+        font-size: var(--base);
+
+    }
+
+    .logoGreen {
+        color: var(--colorGreen);
+        font-size: var(--epsilon);
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .logoGreen a{
+        color: var(--colorGreen);
+    }
+
+    .menuGreen {
+        border-top: solid;
+        border-color: var(--colorGreen);
+        border-width: 0.5px; 
+        width: 100%;
+    }
+
+    .menuGreen a{
+        color: var(--colorGreen);
+    }
+
+    .menuGreen ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+        padding-left:0px ;
+        margin-bottom: 0px;
+        }
+
+    .menuGreen li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 25px;
+        letter-spacing: 1px;
+        
+
+    }
+
+    .menuGreen li:nth-child(-n + 2){border-right:solid; border-width: 0.5px; border-color: var(--colorGreen);
+    }
+
     /*home*/
     .introText{
         font-size: var(--gama);
@@ -296,12 +433,126 @@ body { margin:0px; }
         font-size: var(--delta);
     }
 
+    .card-text-display {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+        height: 8rem;
+        border-bottom: solid 0.5px;
+        border-color: var(--colorStone);
+        flex-direction: column;
+        height: 140px;
+    }
+
+     /*work*/
+
+     .paddingTop {
+        padding-top: 2rem;
+    }
+
+     .titleWork{
+        font-size: var(--gama);
+        color: var(--colorStone);
+        font-weight:300;
+        line-height: 110%;
+        margin-top: 25px;
+    }
+    .filterWork{
+        display:flex;
+        font-size: var(--base);
+        display: none;
+    }
+
+    .filterWork ul{
+        display: flex;
+        border-bottom: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        width: 100%;
+        padding-left: 0;
+        justify-content: space-between;
+
+    }
+    .filterWork li {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 100px;
+        padding-right: 10rem;
+        display: flex;
+
+    }
+
+    .workContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--colorStone);
+       
+
+    }
+
+    .cardContentWork {
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        color: var(--colorGreen);
+        width: 95%;
+        margin-bottom: 2rem;
+
+    }
+
+    .imgWork {
+        width: 100%; height: auto;
+    }
+  
+
+    .titleCardWork a{
+        color: var(--colorGreen);
+        font-size: var(--smallprint);
+        display: flex;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+    }
+
+    .titleCardWork a:hover{
+        color: var(--colorGreenLight);
+
+        
+    }
+
+
+    .card-text-display-work {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3rem;
+        border-bottom: solid 0.5px;
+        border-color: var(--colorGreen);
+        margin-top: 1rem;
+    }
+
+
     /*footer*/
 
     .footerText h2{
         font-size: var(--gama);
         color: var(--colorStone);
     }
+
+
+    /*about*/
+    .txtAbout {
+        font-size: var(--epsilon);
+        line-height: 3rem;
+        color: var(--colorGreen);
+        padding: 2rem;
+    }
+
+
 }
 
 
@@ -339,14 +590,6 @@ body { margin:0px; }
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     }
 
-    .card-text-display {
-        display: flex;
-        justify-content: space-between;
-        padding: 3rem;
-        height: 8rem;
-        border-bottom: solid 0.5px;
-        border-color: var(--colorStone);
-    }
 
 
 
