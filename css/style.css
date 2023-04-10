@@ -7,11 +7,12 @@ html { font-size: 62.5%; }
     --colorGreenLight: #02666b;
     --colorPink: #F5C0C4;
     --colorStone: #F2E9EA;
+    --colorWhite: #FFFFFF;
     --alpha: 10rem;
     --beta: 7rem;
     --gama: 5rem;
     --delta: 2.5rem;
-    --epsilon: 1.8rem;
+    --epsilon: 2rem;
     --base:1.6rem;
     --smallprint: 1.4rem;
     --milli: 1.2rem;
@@ -37,6 +38,8 @@ a:hover{color: var(--colorPink);
 .bgPink{background-color:var(--colorPink)}
 
 .bgStone{background-color:var(--colorStone)}
+
+.bgWhite{background-color: var(--colorWhite)}
 
 
 
@@ -209,7 +212,6 @@ body { margin:0px; }
     }
 
     .filterWork{
-        display:flex;
         font-size: var(--base);
     }
 
@@ -227,7 +229,7 @@ body { margin:0px; }
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        height: 100px;
+        height: 50px;
         padding-right: 10rem;
         display: flex;
 
@@ -237,7 +239,6 @@ body { margin:0px; }
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-end;
-        background-color: var(--colorStone);
         padding: 50px;
         display: flex;
     }
@@ -284,6 +285,40 @@ body { margin:0px; }
         margin-top: 1rem;
     }
 
+    .introWork {
+        display: flex;
+        justify-content: end;
+        font-size: var(--epsilon);
+        line-height: 3.5rem;
+        color: var(--colorGreen);
+        padding: 50px;
+    
+    }
+
+    .description{
+        font-size: var(--base);
+    }
+
+    .description ul{
+        display: flex;
+        border-bottom: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        width: 100%;
+        padding-left: 0;
+        justify-content: flex-start;
+
+    }
+    .description li {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 50px;
+        padding-right: 10rem;
+        display: flex;
+
+    }
+
     /*about*/
     .txtAbout {
         font-size: var(--delta);
@@ -291,6 +326,7 @@ body { margin:0px; }
         color: var(--colorGreen);
         padding: 3rem;
     }
+
 
     .alignContentEnd {
         display: flex;
