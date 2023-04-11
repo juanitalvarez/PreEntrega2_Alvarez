@@ -619,7 +619,8 @@ body { margin:0px; }
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        background-color: var(--colorStone);
+        padding: 1rem;
+        margin-top: 1rem;
        
 
     }
@@ -664,6 +665,38 @@ body { margin:0px; }
         border-bottom: solid 0.5px;
         border-color: var(--colorGreen);
         margin-top: 1rem;
+    }
+
+    .introWork {
+        display: flex;
+        justify-content: end;
+        font-size: var(--epsilon);
+        line-height: 3.5rem;
+        color: var(--colorGreen);
+        padding: 50px;
+    
+    }
+
+    .description{
+        font-size: var(--base);
+    }
+
+    .description ul{
+        border-bottom: solid;
+        border-color: var(--colorStone);
+        border-width: 0.5px; 
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 1rem;
+
+    }
+    .description li {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 3rem;
+        display: flex;
+
     }
 
 
