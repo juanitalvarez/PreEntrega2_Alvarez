@@ -670,10 +670,10 @@ body { margin:0px; }
     .introWork {
         display: flex;
         justify-content: end;
-        font-size: var(--epsilon);
-        line-height: 3.5rem;
+        font-size: var(--base);
+        line-height: 3rem;
         color: var(--colorGreen);
-        padding: 50px;
+        padding: 2rem;
     
     }
 
