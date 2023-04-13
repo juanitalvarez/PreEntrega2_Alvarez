@@ -1,0 +1,50 @@
+$colorGreen: #00383B;
+$colorGreenLight: #02666b;
+$colorPink: #F5C0C4;
+$colorStone: #F2E9EA;
+$colorWhite: #FFFFFF;
+$alpha: 10rem;
+$beta: 7rem;
+$gama: 5rem;
+$delta: 2.5rem;
+$epsilon: 2rem;
+$base:1.6rem;
+$smallprint: 1.4rem;
+$milli: 1.2rem;
+$mini: 1.1rem;
+$mainFont: "basic-sans", sans-serif;
+$secondaryFont: "basic-sans", sans-serif;
+
+html {font-size: 62.5%;}
+
+li {list-style-type: none;}
+
+a{text-decoration: none; color: $colorStone; transition: 1s all;}
+
+a:hover{color: $colorPink;}
+
+.bgGreen {background-color: $colorGreen}
+
+.bgPink{background-color: $colorPink}
+
+.bgStone{background-color: $colorStone}
+
+.bgWhite{background-color: $colorWhite}
+
+p, a, h1, h2, h3, h4, h5, h6, input, textarea 
+    {font-family: $mainFont;
+        font-weight: 300;
+        font-style: normal;}
+
+body {margin:0px;}
+
+*{margin-bottom: 0;}
+
+.paddingL{padding-left: 25px;}
+
+.paddingR{padding-right: 25px;}
+
+
+.card, .card-header, .card-body, .card-footer{
+    border-radius:0px !important;
+}
